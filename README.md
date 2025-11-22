@@ -33,8 +33,8 @@ The `Servicenow_project.sql` script performs:
 - Loads raw CSV with LOAD DATA LOCAL INFILE
 - Standardizes text (priority → lowercase)
 - Fixes missing data:
-- category → Unknown
-- agent_name → Unassigned
+    - category → Unknown
+    - agent_name → Unassigned
 - Converts date to proper DATE format
 - Adds speed_category column
 - **Classifies tickets**: Fast / Medium / Slow / N/A
