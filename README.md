@@ -29,11 +29,15 @@ The process involved:
 
 ### **2. Data Cleaning (SQL)**
 The `Servicenow_project.sql` script performs:
-- Missing value handling  
-- Standardizing priority levels  
-- Formatting date fields  
-- Removing duplicates  
-- Creating calculated fields (e.g., fast/medium/slow ticket resolution categories)
+- Creates database & table
+- Loads raw CSV with LOAD DATA LOCAL INFILE
+- Standardizes text (priority → lowercase)
+- Fixes missing data:
+- category → Unknown
+- agent_name → Unassigned
+- Converts date to proper DATE format
+- Adds speed_category column
+- **Classifies tickets**: Fast / Medium / Slow / N/A
 
 The cleaned output is exported as `cleaned_tickets.csv`.
 
