@@ -52,10 +52,11 @@ The `Analysis.pbix` file includes visuals such as:
 ---
 
 ## 📊 Key Insights
-- Identified ticket categories with the highest volume  
-- Observed daily/weekly ticket trends  
-- Compared agent performance using resolution time  
-- Highlighted priority distribution to understand workload patterns  
+- Identified categories with the highest and lowest ticket counts
+- Observed overall ticket trends over time
+- Highlighted priority distribution to understand workload mix
+- Summarized total tickets and average resolution time using KPIs
+- Enabled flexible filtering using category, priority, and agent slicers 
 
 ---
 
