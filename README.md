@@ -16,7 +16,7 @@ cleaned/
 cleaned_tickets.csv
 sql/
 Servicenow_project.sql
-README.mdd
+README.md
 
 
 ---
