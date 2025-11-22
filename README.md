@@ -41,12 +41,9 @@ The cleaned output is exported as `cleaned_tickets.csv`.
 The `Analysis.pbix` file includes visuals such as:
 - **Bar chart** – Tickets by category  
 - **Line chart** – Ticket trend over time  
-- **Pie chart** – Priority distribution  
-- **KPIs**  
-  - Total Tickets  
-  - Average Resolution Time  
-  - Fast & Slow ticket counts  
-  - Top-performing agents  
+- **Pie chart** – Priority distribution
+- **Slicers** - Priority and agent filters
+- **KPIs** - Total Tickets, Average Resolution Time  
 
 ---
 
