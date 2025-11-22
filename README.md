@@ -7,15 +7,13 @@ The workflow includes **raw data → SQL cleaning → Power BI visualization**.
 
 ## 📁 Project Structure
 
-dashboard/
-Analysis.pbix
 data/
-raw/
 tickets_raw.csv
-cleaned/
 cleaned_tickets.csv
 sql/
 Servicenow_project.sql
+dashboard/
+Analysis.pbix
 README.md
 
 
