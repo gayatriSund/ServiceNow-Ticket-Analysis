@@ -76,13 +76,6 @@ The `Analysis.pbix` file includes visuals such as:
 
 ---
 
-## 📌 Future Enhancements
-- Add DAX measures documentation  
-- Add bookmarks and drilldowns in Power BI  
-- Add an automated ETL pipeline (Python + SQL)
-
----
-
 ## 👩‍💻 Author
 **Gayatri Sundaram**  
 Data Analyst | SQL | Power BI | Python | Statistics  
